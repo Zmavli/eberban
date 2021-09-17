@@ -1,0 +1,2311 @@
+# eberban word list (en)
+---
+# Specials :
+_cardinal:
+  long: "(Ec) is (a group of) [number] things satisfying [A1]."
+_number:
+  long: "(En) is the (abstract) number [number] times [An] (default: 1)."
+0:
+  family: "TI"
+  long: "Digit 0"
+  short: "te"
+1:
+  family: "TI"
+  long: "Digit 1"
+  short: "ta"
+2:
+  family: "TI"
+  long: "Digit 2"
+  short: "to"
+3:
+  family: "TI"
+  long: "Digit 3"
+  short: "tu"
+4:
+  family: "TI"
+  long: "Digit 4"
+  short: "tei"
+5:
+  family: "TI"
+  long: "Digit 5"
+  short: "tai"
+6:
+  family: "TI"
+  long: "Digit 6"
+  short: "toi"
+7:
+  family: "TI"
+  long: "Digit 7"
+  short: "tui"
+8:
+  family: "TI"
+  long: "Digit 8"
+  short: "tie"
+9:
+  family: "TI"
+  long: "Digit 9"
+  short: "tia"
+
+# Particles
+mi:
+  family: "MI"
+  long: "(Ed) is I/me/a speaker/author."
+  short: "me"
+mo:
+  family: "MI"
+  long: "(Ed) is you, a listener."
+  short: "you"
+mio:
+  family: "MI"
+  long: "(Ed) is I/a speaker/author or you, a listener."
+  short: "inclusive we"
+mie:
+  family: "MI"
+  long: "(Ed) is I/a speaker/author or someone, neither a speaker or listener."
+  short: "exclusive we"
+ma:
+  family: "MI"
+  long: |
+    (Ed) exists.
+
+    Performs no restrictions over the existential variable.
+    However, it can be useful to more precisely control the scope of existential
+    claims, or perform tricks using the chaining system.
+  short: "exists"
+mau:
+  family: "MI"
+  long: |
+    (Ed) is not bound outside of this scope.
+
+    Can be used with {sen} to define the default meaning of a unbound parameter.
+    Use {zoi} for predicate places.
+  short: "unbound"
+mai:
+  family: "MI"
+  long: |
+    (Ed) is indefinite specific.
+    The speaker has a specific individual in mind, but the listener is not
+    expected to know which one.
+  short: "a"
+mao:
+  family: "MI"
+  long: |
+    (Ed) is definite specific.
+    The speaker has a specific individual in mind and the listener is expected
+    to know which one from context.
+  short: "the"
+me:
+  family: "MI"
+  long: "(Ed) is someone, neither a speaker or listener."
+  short: "other"
+mei:
+  family: "MI"
+  long: "(Ed) is this here, near a speaker."
+  short: "this"
+meo:
+  family: "MI"
+  long: "(Ed) is that here, near a listener."
+  short: "that"
+meu:
+  family: "MI"
+  long: "(Ed) is that yonder, far from speaker and listener."
+  short: "that yonder"
+mua:
+  family: "MI"
+  long: "States the last/previous proposition."
+  short: "last prop"
+mue:
+  family: "MI"
+  long: "States the proposition (0-ary scope) in which this one is embeded."
+  short: "outer prop"
+mui:
+  family: "MI"
+  long: "States the current proposition."
+  short: "current prop"
+muo:
+  family: "MI"
+  long: "States the next proposition."
+  short: "next prop"
+ba:
+  family: "BA"
+  long: "Inline argument marker."
+  short: "[inline arg]"
+te:
+  family: "TI"
+  long: "Digit 0"
+  short: "0"
+  tags: [digit, number]
+ta:
+  family: "TI"
+  long: "Digit 1"
+  short: "1"
+  tags: [digit, number]
+to:
+  family: "TI"
+  long: "Digit 2"
+  short: "2"
+  tags: [digit, number]
+tu:
+  family: "TI"
+  long: "Digit 3"
+  short: "3"
+  tags: [digit, number]
+tei:
+  family: "TI"
+  long: "Digit 4"
+  short: "4"
+  tags: [digit, number]
+tai:
+  family: "TI"
+  long: "Digit 5"
+  short: "5"
+  tags: [digit, number]
+toi:
+  family: "TI"
+  long: "Digit 6"
+  short: "6"
+  tags: [digit, number]
+tui:
+  family: "TI"
+  long: "Digit 7"
+  short: "7"
+  tags: [digit, number]
+tie:
+  family: "TI"
+  long: "Digit 8"
+  short: "8"
+  tags: [digit, number]
+tia:
+  family: "TI"
+  long: "Digit 9"
+  short: "9"
+  tags: [digit, number]
+tio:
+  family: "TI"
+  long: "Digit ↊/A (10)"
+  short: "A"
+  tags: [digit, number]
+tiu:
+  family: "TI"
+  long: "Digit ↋/B (11)"
+  short: "B"
+  tags: [digit, number]
+teie:
+  family: "TI"
+  long: "Digit C (12)"
+  short: "C"
+  tags: [digit, number]
+teia:
+  family: "TI"
+  long: "Digit D (13)"
+  short: "D"
+  tags: [digit, number]
+teio:
+  family: "TI"
+  long: "Digit E (14)"
+  short: "E"
+  tags: [digit, number]
+teiu:
+  family: "TI"
+  long: "Digit F (15)"
+  short: "F"
+  tags: [digit, number]
+ti:
+  family: "TI"
+  long: "Decimal separator"
+  short: "."
+  tags: [separator, number]
+tiha:
+  family: "TI"
+  long: "<base . number> separator"
+  short: "base"
+  tags: [separator, number]
+tihe:
+  family: "TI"
+  long: "<precise . approximation> separator"
+  short: "approx"
+  tags: [separator, number]
+tihi:
+  family: "TI"
+  long: "<precise . repeating part> separator"
+  short: "repeating"
+  tags: [separator, number]
+tiho:
+  family: "TI"
+  long: "<numerator . denominator> separator"
+  short: "fraction"
+  tags: [separator, number]
+tahe:
+  family: "TI"
+  long: "10^3 separator (kilo)"
+  short: "10^3"
+  tags: [separator, number]
+taha:
+  family: "TI"
+  long: "10^6 separator (mega)"
+  short: "10^6"
+  tags: [separator, number]
+taho:
+  family: "TI"
+  long: "10^9 separator (giga)"
+  short: "10^9"
+  tags: [separator, number]
+tahu:
+  family: "TI"
+  long: "10^12 separator (tera)"
+  short: "10^12"
+  tags: [separator, number]
+tahei:
+  family: "TI"
+  long: "10^15 separator (peta)"
+  short: "10^15"
+  tags: [separator, number]
+tahai:
+  family: "TI"
+  long: "10^18 separator (exa)"
+  short: "10^18"
+  tags: [separator, number]
+tahoi:
+  family: "TI"
+  long: "10^21 separator (zetta)"
+  short: "10^21"
+  tags: [separator, number]
+tahui:
+  family: "TI"
+  long: "10^24 separator (yotta)"
+  short: "10^24"
+  tags: [separator, number]
+tea:
+  family: "TI"
+  long: "negative sign"
+  short: "-"
+  tags: [number]
+tehe:
+  family: "TI"
+  long: "Vector component 0"
+  short: "vec 0:"
+  tags: [separator, number, vector]
+teha:
+  family: "TI"
+  long: "Vector component 1"
+  short: "vec 1:"
+  tags: [separator, number, vector]
+teho:
+  family: "TI"
+  long: "Vector component 2"
+  short: "vec 2:"
+  tags: [separator, number, vector]
+tehu:
+  family: "TI"
+  long: "Vector component 3"
+  short: "vec 3:"
+  tags: [separator, number, vector]
+tehei:
+  family: "TI"
+  long: "Vector component 4"
+  short: "vec 4:"
+  tags: [separator, number, vector]
+tehai:
+  family: "TI"
+  long: "Vector component 5"
+  short: "vec 5:"
+  tags: [separator, number, vector]
+tehoi:
+  family: "TI"
+  long: "Vector component 6"
+  short: "vec 6:"
+  tags: [separator, number, vector]
+tehui:
+  family: "TI"
+  long: "Vector component 7"
+  short: "vec 7:"
+  tags: [separator, number, vector]
+ca:
+  family: "CA"
+  long: "Starts grammatically correct eberban quote. (Ed) is text [quote]."
+  short: ""
+cai:
+  family: "CAI"
+  long: "Ends grammatically correct eberban quote."
+  short: ""
+  tags: [terminator]
+ce:
+  family: "CE"
+  long: "Quote next word. (Ed) is word [word]."
+  short: "[word]"
+cei:
+  family: "CE"
+  long: "(Ed) is the family of word [word]."
+  short: "[family]"
+ceu:
+  family: "CE"
+  long: "Provides a predicate describing the meaning of the following particle."
+  short: "[meaning]"
+co:
+  family: "CO"
+  long: "(Ed) is a quote of an arbitrary string of space separated \"words\"."
+  short: ""
+cu:
+  family: "CU"
+  long: |
+    Erase the currently sentence/defintion.
+    Used when a mistake is made to redo the sentence/definition."
+  short: "[erased]"
+fe:
+  family: "FE"
+  long: "Switch to the E place of the predicate before the current VE-scope."
+  short: "switch-E"
+fa:
+  family: "FE"
+  long: "Switch to the A place of the predicate before the current VE-scope."
+  short: "switch-A"
+fo:
+  family: "FE"
+  long: "Switch to the O place of the predicate before the current VE-scope."
+  short: "switch-O"
+fu:
+  family: "FE"
+  long: "Switch to the U place of the predicate before the current VE-scope."
+  short: "switch-U"
+fie:
+  family: "FE"
+  long: |
+    Switch to a reference of the E place of the predicate before the current VE-scope.
+    This reference is an individual representing the content of the place.
+  short: "switch-E-ref"
+fia:
+  family: "FE"
+  long: |
+    Switch to a reference of the A place of the predicate before the current VE-scope.
+    This reference is an individual representing the content of the place.
+  short: "switch-A-ref"
+fio:
+  family: "FE"
+  long: |
+    Switch to a reference of the O place of the predicate before the current VE-scope.
+    This reference is an individual representing the content of the place.
+  short: "switch-O-ref"
+fiu:
+  family: "FE"
+  long: |
+    Switch to a reference of the U place of the predicate before the current VE-scope.
+    This reference is an individual representing the content of the place.
+  short: "switch-U-ref"
+fua:
+  family: "FE"
+  long: "Switch to the same place as the previous FE/VE."
+  short: "switch-same"
+fue:
+  family: "FE"
+  long: "Switch to the next place relative to the previous FE/VE."
+  short: "switch-next"
+ve:
+  family: "VE"
+  long: "Switch to the E place of the predicate word before it, and start a VE-scope."
+  short: "〈 switch-E"
+va:
+  family: "VE"
+  long: "Switch to the A place of the predicate word before it, and start a VE-scope."
+  short: "〈 switch-A"
+vo:
+  family: "VE"
+  long: "Switch to the O place of the predicate word before it, and start a VE-scope."
+  short: "〈 switch-O"
+vu:
+  family: "VE"
+  long: "Switch to the U place of the predicate word before it, and start a VE-scope."
+  short: "〈 switch-U"
+vie:
+  family: "VE"
+  long: |
+    Switch to a reference of the E place of the predicate word before it, and start a VE-scope.  
+    This reference is an individual representing the content of the place.
+  short: "〈 switch-E-ref"
+via:
+  family: "VE"
+  long: |
+    Switch to a reference of the A place of the predicate word before it, and start a VE-scope.  
+    This reference is an individual representing the content of the place.
+  short: "〈 switch-A-ref"
+vio:
+  family: "VE"
+  long: |
+    Switch to a reference of the O place of the predicate word before it, and start a VE-scope.  
+    This reference is an individual representing the content of the place.
+  short: "〈 switch-O-ref"
+viu:
+  family: "VE"
+  long: |
+    Switch to a reference of the U place of the predicate word before it, and start a VE-scope.  
+    This reference is an individual representing the content of the place.
+  short: "〈 switch-U-ref"
+vei:
+  family: "VEI"
+  long: "Close the current VE-scope."
+  short: "〉"
+  tags: [terminator, elidable]
+se:
+  family: "SE"
+  long: "Bind E place and disable switching."
+  short: "<EE>"
+sa:
+  family: "SE"
+  long: Bind A place and disable switching.
+  short: "<AA>"
+so:
+  family: "SE"
+  long: "Bind O place and disable switching."
+  short: "<OO>"
+su:
+  family: "SE"
+  long: "Bind U place and disable switching."
+  short: "<II>"
+sea:
+  family: "SE"
+  long: "Bind E place then switch to the A place."
+  short: "<EA>"
+seo:
+  family: "SE"
+  long: "Bind E place then switch to the O place."
+  short: "<EO>"
+seu:
+  family: "SE"
+  long: "Bind E place then switch to the U place."
+  short: "<EU>"
+sae:
+  family: "SE"
+  long: "Bind A place then switch to the E place."
+  short: "<AE>"
+sao:
+  family: "SE"
+  long: "Bind A place then switch to the O place."
+  short: "<AO>"
+sau:
+  family: "SE"
+  long: "Bind A place then switch to the U place."
+  short: "<AU>"
+soe:
+  family: "SE"
+  long: "Bind O place then switch to the E place."
+  short: "<OE>"
+soa:
+  family: "SE"
+  long: "Bind O place then switch to the A place."
+  short: "<OA>"
+sou:
+  family: "SE"
+  long: "Bind O place then switch to the U place."
+  short: "<OU>"
+sue:
+  family: "SE"
+  long: "Bind U place then switch to the E place."
+  short: "<UE>"
+sua:
+  family: "SE"
+  long: "Bind U place then switch to the A place."
+  short: "<UA>"
+suo:
+  family: "SE"
+  long: "Bind U place then switch to the O place."
+  short: "<UO>"
+za:
+  family: "ZI"
+  long: "(Ec) is named [predicate-(E)]."
+  short: "named"
+ze:
+  family: "ZI"
+  long: "Use the same instance and variables of the following unit instead of a new one."
+  short: "same"
+zi:
+  family: "ZI"
+  long: |
+    Narrow-scope negation : negates the predicate unit but not the existential variables it creates.
+    There exist e, a,... such that unit(e, a, ...) is false.
+  short: "non-"
+  tags: [negation]
+zo:
+  family: "ZI"
+  long: "(Ec) is something referred to by [predicate-E]."
+  short: "deref"
+zoi:
+  family: "ZI"
+  long: "(Ec) is a reference/symbol refering to [predicate]."
+  short: "ref"
+pa:
+  family: "PA"
+  long: "Starts an assertive sentence, that can be believed or disbelieved, and is either true or false."
+  short: "[assertion]"
+pae:
+  family: "PA"
+  long: "Starts an vocative. Defines the listener as the (E) place of this scope."
+  short: "[vocative]"
+pao:
+  family: "PA"
+  long: "Starts a declarative sentence, that is true only because uttered (used for declarations, announcements, etc)."
+  short: "[declaration]"
+pau:
+  family: "PA"
+  long: "Starts a directive sentence, that is requested, wished or ordered to be true."
+  short: "[directive]"
+pai:
+  family: "PAI"
+  long: "Ends an predicate scope."
+  short: ""
+  tags: [terminator, elidable]
+pe:
+  family: "PE"
+  long: "Inline scope starter."
+  short: "["
+pei:
+  family: "PEI"
+  long: "Inline scope elidible terminator."
+  short: "]"
+  tags: [terminator, elidable]
+pi:
+  family: "PI"
+  long: "Ends the sequence of arguments."
+  short: "[args end]"
+pia:
+  family: "PI"
+  long: "Ends the sequence of arguments, and mark the scope as <EA> default predicate."
+  short: "[args end EA]"
+po:
+  family: "PO"
+  long: "Start a predicate definition."
+  short: "[definition]"
+poa:
+  family: "PO"
+  long: "Start a question definition, the arguments being the unknown informations."
+  short: "[question]"
+poi:
+  family: "POI"
+  long: "Ends a predicate definition."
+  short: ""
+  tags: [terminator, elidable]
+pu:
+  family: "PU"
+  long: "Marks a new paragraph/section/change of subject."
+  short: "[paragraph]"
+da:
+  family: "DA"
+  long: "Emphasis indicator : the attached word is especially emphasized."
+  short: "[emphasis]"
+daha:
+  family: "DA"
+  long: "Nonce-word indicator : the attached word (usually a compound) may be non-standard."
+  short: "[non-standard]"
+dahe:
+  family: "DA"
+  long: "Attached word is a metadata tag / hashtag."
+  short: "[metadata]"
+dae:
+  family: "DA"
+  long: "However/but/in contrast."
+  short: "[however]"
+dai:
+  family: "DA"
+  long: "Similarly."
+  short: "[similarly]"
+dao:
+  family: "DA"
+  long: "Additionally."
+  short: "[additionally]"
+dau:
+  family: "DA"
+  long: "Uniquely/only/solely."
+  short: "[uniquely]"
+de:
+  family: "DE"
+  long: "Attach a single predicate that acts as an interjection."
+  short: ""
+di:
+  family: "DI"
+  long: "Attaches a subscript number/string."
+  short: "[subscript]"
+du:
+  family: "DU"
+  long: "Override particule meaning with provided predicate."
+  short: ""
+do:
+  family: "DO"
+  long: "Starts parenthetical note."
+  short: "("
+doi:
+  family: "DOI"
+  long: "Ends parenthetical note."
+  short: ")"
+  tags: [terminator]
+bu:
+  family: "BU"
+  long: "Sequence separator."
+  short: "[sequence]"
+buhu:
+  family: "BU"
+  long: "Erase the current sequence item."
+  short: "[erased]"
+be:
+  family: "BE"
+  long: "Ends string/number/borrowing."
+  short: ""
+  tags: [terminator, elidable, number]
+bei:
+  family: "BE"
+  long: "Transform a cardinal number into an ordinal : (Ec) is the [number]th member of sequence [As]."
+  short: "-th"
+  tags: [terminator, number, list]
+bi:
+  family: "BI"
+  long: "Wide scope negation ranging over existential variables and predicates."
+  short: "not"
+  tags: [negation]
+bo:
+  family: "BO"
+  long: "Create a new variable and discard previous value if any."
+  short: "new var"
+
+# Roots :
+kor:
+  family: "R"
+  long: "(Ec) are all the members of sequence [As]."
+  short: "group"
+  tags: [sequence]
+cna:
+  family: "R"
+  long: "This proposition is true if all individuals in sequence (Es) satisfies property [A1]."
+  short: "AND-I"
+  tags: [sequence, connective]
+cne:
+  family: "R"
+  long: "This proposition is true if at least one individual in sequence (Es) satisfies property [A1]."
+  short: "OR-I"
+  tags: [sequence, connective]
+cni:
+  family: "R"
+  long: "This proposition is true if exactly (On) (default: 1) individuals in sequence (Es) satisfies property [A1]."
+  short: "XOR-I"
+  tags: [sequence, connective]
+cena:
+  family: "R"
+  long: "This proposition is true if all propositions in sequence (Es0) are true."
+  short: "AND-P0"
+  tags: [sequence, connective]
+cene:
+  family: "R"
+  long: "This proposition is true if at least one proposition in sequence (Es0) is true."
+  short: "OR-P0"
+  tags: [sequence, connective]
+ceni:
+  family: "R"
+  long: "This proposition is true if exactly (An) (default: 1) proposition(s) in sequence (Es0) is true."
+  short: "XOR-P0"
+  tags: [sequence, connective]
+cana:
+  family: "R"
+  long: "This proposition is true if (Ec) satisfies all properties in sequence [As1]."
+  short: "AND-P1"
+  tags: [sequence, connective]
+cane:
+  family: "R"
+  long: "This proposition is true if (Ec) satisfies at least one property in sequence [As1]."
+  short: "OR-P1"
+  tags: [sequence, connective]
+cani:
+  family: "R"
+  long: "This proposition is true if (Ec) satisfies exactly (On) (default: 1) proposition(s) in sequence [As1]."
+  short: "XOR-P1"
+  tags: [sequence, connective]
+cona:
+  family: "R"
+  long: "This proposition is true if (Ec) and (Ac) satisfies all relations in sequence (Os2)."
+  short: "AND-P2"
+  tags: [sequence, connective]
+cone:
+  family: "R"
+  long: "This proposition is true if (Ec) and (Ac) satisfies at least one relation in sequence (Os2)."
+  short: "OR-P2"
+  tags: [sequence, connective]
+coni:
+  family: "R"
+  long: "This proposition is true if (Ec) and (Ac) satisfies exactly (Un) (default: 1) relation(s) in sequence (Os2)."
+  short: "XOR-P2"
+  tags: [sequence, connective]
+
+cir:
+  family: "R"
+  long: "(En) is greater than [An]."
+  short: ">"
+  tags: [maths, ordering]
+cal:
+  family: "R"
+  long: "(En) is less than [An]."
+  short: "<"
+  tags: [maths, ordering]
+cpu:
+  family: "R"
+  long: "(En) is equal to [An]."
+  short: "="
+  tags: [maths, ordering]
+fuir:
+  family: "R"
+  long: "(Ed) knows fact [A0] from source (Od)."
+  short: "knows"
+zvu:
+  family: "R"
+  long: |
+    (Ec) satisfy relation [A2] with its future self. 
+    Allow to describe the evolution of something.
+
+    [A2] is used with (future, current) in this order.
+  short: "evolution"
+zde:
+  family: "R"
+  long: |
+    (Ed) [time interval] ends before the start of [Ad] (default: now) [time interval]
+    with distance (On) (unitless={zgi}).
+  short: "before"
+  tags: [time]
+zda:
+  family: "R"
+  long: "(Ed) [time interval] overlaps/is concurrent with [Ad] (default: now) [time interval]."
+  short: "concurrent"
+  tags: [time]
+zdo:
+  family: "R"
+  long: |
+    (Ed) [time interval] begins after the end of [Ad] (default: now) [time interval]
+    with distance (On) (unitless={zgi}).
+  short: "after"
+  tags: [time]
+zdei:
+  family: "R"
+  long: |
+    (Ed) [time interval] starts [Ad] [time interval].  
+    (Ed) and [Ad] share the same starting point and (Ed) is within [Ad].
+  short: "starts"
+  tags: [time]
+zdai:
+  family: "R"
+  long: "(Ed) [time interval] is within [Ad] (default: now)."
+  short: "within"
+  tags: [time]
+zdoi:
+  family: "R"
+  long: |
+    (Ed) [time interval] finishes [Ad] [time interval].  
+    (Ed) and [Ad] share the same end point and (Ed) is within [Ad].
+  short: "finishes"
+  tags: [time]
+skir:
+  family: "R"
+  long: "(Ed) (default: speaker) is at the same place as [Ad] (default: speaker)."
+  short: "same place"
+  tags: [space]
+bri:
+  family: "R"
+  long: "(Ed) (default: speaker) is above/upward/up from [Ad] (default: speaker)."
+  short: "up"
+  tags: [space, direction]
+brin:
+  family: "R"
+  long: "(Ed) (default: speaker) is below/downwars/down from [Ad] (default: speaker)."
+  short: "down"
+  tags: [space, direction]
+bre:
+  family: "R"
+  long: "(Ed) (default: speaker) is forward/to the front of [Ad] (default: speaker)."
+  short: "front"
+  tags: [space, direction]
+bren:
+  family: "R"
+  long: "(Ed) (default: speaker) is northward/to the north of [Ad] (default: speaker)."
+  short: "north"
+  tags: [space, direction]
+bra:
+  family: "R"
+  long: "(Ed) (default: speaker) is backward/to the back of [Ad] (default: speaker)."
+  short: "back"
+  tags: [space, direction]
+bran:
+  family: "R"
+  long: "(Ed) (default: speaker) is southward/to the south of [Ad] (default: speaker)."
+  short: "south"
+  tags: [space, direction]
+bro:
+  family: "R"
+  long: "(Ed) (default: speaker) is rightward/to the right of [Ad] (default: speaker)."
+  short: "right"
+  tags: [space, direction]
+bron:
+  family: "R"
+  long: "(Ed) (default: speaker) is eastward/to the east of [Ad] (default: speaker)."
+  short: "east"
+  tags: [space, direction]
+bru:
+  family: "R"
+  long: "(Ed) (default: speaker) is leftward/to the left of [Ad] (default: speaker)."
+  short: "left"
+  tags: [space, direction]
+brun:
+  family: "R"
+  long: "(Ed) (default: speaker) is westward/to the west of [Ad] (default: speaker)."
+  short: "west"
+  tags: [space, direction]
+
+vuno:
+  family: "R"
+  long: "(Ed) is at a distance in space of (On) (default: 1, unitless=meter) from [Ad] (default: speaker)."
+  short: "distance"
+  tags: [space, measument]
+zini:
+  family: "R"
+  long: "(Ed) [time interval] have duration (An) (default: 1, unitless={zgi})."
+  short: "duration"
+  tags: [time, measument]
+zulu:
+  family: "R"
+  long: "(Ed) has an age/elapsed time since birth/creation of [An] (default: 1, unitless={zgi})."
+  short: "age"
+  tags: [time, measument]
+zgie:
+  family: "R"
+  long: "(Ed) has length [An] (default: 1, unitless=meter)."
+  short: "length"
+  tags: [space, measument]
+fniu:
+  family: "R"
+  long: "(Ed) has height [An] (default: 1, unitless=meter)."
+  short: "height"
+  tags: [space, measument]
+cpea:
+  family: "R"
+  long: "(Ed) has area [An] (default: 1, unitless=meter^2)."
+  short: "area (measure)"
+  tags: [space, measument]
+jvao:
+  family: "R"
+  long: "(Ed) has volume [An] (default: 1, unitless=meter^3)."
+  short: "volume (measure)"
+  tags: [space, measument]
+ckia:
+  family: "R"
+  long: "(Ed) has speed [An] (default: 1, unitless=meter/second)."
+  short: "speed"
+  tags: [space, measument]
+
+fsi:
+  family: "R"
+  long: "(Ed) is a starting point of [Ad]."
+  short: "space start"
+  tags: [space, interval]
+fse:
+  family: "R"
+  long: "(Ed) is between the starting and end point of [Ad]."
+  short: "space between"
+  tags: [space, interval]
+fsa:
+  family: "R"
+  long: "(Ed) is a halt/interruption of [Ad]."
+  short: "space halt"
+  tags: [space, interval]
+fso:
+  family: "R"
+  long: "(Ed) is the resumption of [Ad]."
+  short: "space resumption"
+  tags: [space, interval]
+fsu:
+  family: "R"
+  long: "(Ed) is an end point of [Ad]."
+  short: "space end"
+  tags: [space, interval]
+fena:
+  family: "R"
+  long: "(Ed) is inside/within [Ad]."
+  short: "inside"
+  tags: [space]
+jaro:
+  family: "R"
+  long: "(Ed) is outside [Ad]."
+  short: "outside"
+  tags: [space]
+suru:
+  family: "R"
+  long: "(Ed) is adjacent to/along [Ad]."
+  short: "adjacent"
+  tags: [space]
+manu:
+  family: "R"
+  long: "(Ed) is tangential/passing by [Ad]."
+  short: "passing by"
+  tags: [space]
+varu:
+  family: "R"
+  long: "(Ed) is surrounding/around [Ad]."
+  short: "surrounding"
+  tags: [space]
+mere:
+  family: "R"
+  long: "(Ed) is transfixing/passing through [Ad]."
+  short: "passing through"
+  tags: [space]
+tinu:
+  family: "R"
+  long: "(Ed) is towards [Ad]."
+  short: "towards"
+  tags: [space]
+keru:
+  family: "R"
+  long: "(Ed) is away from [Ad]."
+  short: "away from"
+  tags: [space]
+
+don:
+  family: "R"
+  long: "(Ed) likes [Ad]."
+  short: "likes"
+  tags: [emotion]
+jven:
+  family: "R"
+  long: "(Ed) is a friend of [Ad]."
+  short: "friend"
+  tags: [emotion]
+kli:
+  family: "R"
+  long: "(Ed) thanks/is thankful to [Ad] about (O0) being true."
+  short: "thanks"
+  tags: [emotion]
+kre:
+  family: "R"
+  long: |
+    (Ed) helps [Ad] to satisfy property (O1).
+    [Ad] is the one satisfying (O1), and (Ed) doesn't need to satisfy (O1).
+  short: "helps"
+vaule:
+  family: "R"
+  long: "(Ed) is milk."
+  short: "milk"
+mian:
+  family: "R"
+  long: "(Ed) is a cat."
+  short: "cat"
+  tags: [animal]
+gla:
+  family: "R"
+  long: "(Ed) [tool] is used to make [A0] [purpose] true."
+  short: "tool"
+kali:
+  family: "R"
+  long: "(Ed) drinks [Ad]."
+  short: "drinks"
+buri:
+  family: "R"
+  long: "(Ed) eats [Ad]."
+  short: "eats"
+zve:
+  family: "R"
+  long: "(Ed) is female."
+  short: "female"
+kla:
+  family: "R"
+  long: "(Ed) is male."
+  short: "male"
+tsen:
+  family: "R"
+  long: "(Ec) invents/creates/authors [Ad]."
+  short: "creates"
+zuna:
+  family: "R"
+  long: "(Ed) is inspired by [Ad]. [Ad] is a source of inspiration for (Ed)."
+  short: "inspired"
+zvar:
+  family: "R"
+  long: "(Ed) has goal/purpose/aims to satisfy [A1]."
+  short: "purpose"
+skao:
+  family: "R"
+  long: "(Ed) is a computer."
+  short: "computer"
+sni:
+  family: "R"
+  long: "(Ed) welcomes/say hello to/greets [Ad] to place (Od)."
+  short: "greets"
+sna:
+  family: "R"
+  long: "(Ed) says goodbye to [Ad] from place (Od)."
+  short: "goodbye"
+spi:
+  family: "R"
+  long: "(Ed) says [Ad] to (Od)."
+  short: "says"
+spur:
+  family: "R"
+  long: "(Ed) is a nest/house/home for [Ad]."
+  short: "home"
+zaor:
+  family: "R"
+  long: "(Ed) agrees with [Ad] that (O0) is true."
+  short: "agrees"
+van:
+  family: "R"
+  long: "(Ed) goes to [Ad] from (Od)."
+  short: "goes"
+vanu:
+  family: "R"
+  long: "(Ed) is a path to [Ad] from (Od)."
+  short: "path"
+gza:
+  family: "R"
+  long: "(Ec) is an agentive cause of event [A0]."
+  short: "agentive cause"
+kini:
+  family: "R"
+  long: "(Ed) learns/studies fact [A0]."
+  short: "learns"
+seru:
+  family: "R"
+  long: "(Ed) is about subject [Ad]."
+  short: "about"
+snai:
+  family: "R"
+  long: "(Ec) labers/works by satisfying property [A1]."
+  short: "works"
+bire:
+  family: "R"
+  long: "(En) is 1 year times [An] (default: 1)."
+  short: "year"
+  tags: [time, unit]
+gare:
+  family: "R"
+  long: |
+    (En) is 1 month times [An] (default: 1).
+    Vague as months have a variable amount of days.
+  short: "month"
+  tags: [time, unit]
+kora:
+  family: "R"
+  long: "(En) is 1 week times [An] (default: 1)."
+  short: "week"
+  tags: [time, unit]
+dena:
+  family: "R"
+  long: "(En) is 1 day times [An] (default: 1)."
+  short: "day"
+  tags: [time, unit]
+sura:
+  family: "R"
+  long: "(En) is 1 hour times [An] (default: 1)."
+  short: "hour"
+  tags: [time, unit]
+jero:
+  family: "R"
+  long: "(En) is 1 minute times [An] (default: 1)."
+  short: "minute"
+  tags: [time, unit]
+vola:
+  family: "R"
+  long: "(En) is 1 second times [An] (default: 1)."
+  short: "second"
+  tags: [time, unit]
+mual:
+  family: "R"
+  long: "(En) is 1 meter times [An] (default: 1)."
+  short: "meter"
+  tags: [space, unit]
+gulo:
+  family: "R"
+  long: "(En) is 1 kilogram times [An] (default: 1)."
+  short: "kilogram"
+  tags: [unit]
+pere:
+  family: "R"
+  long: "(En) is 1 ampere times [An] (default: 1)."
+  short: "ampere"
+  tags: [unit]
+keli:
+  family: "R"
+  long: "(En) is 1 kelvin times [An] (default: 1)."
+  short: "kelvin"
+  tags: [unit]
+saur:
+  family: "R"
+  long: "(En) is 1 candela times [An] (default: 1)."
+  short: "candela"
+  tags: [unit]
+sti:
+  family: "R"
+  long: "(En) is the inverse (1/x) of [An] (default: 1)."
+  short: "inverse"
+  tags: [math]
+ber:
+  family: "R"
+  long: "(Ed) reflects this language (eberban)."
+  short: "eberbanic"
+pre:
+  family: "R"
+  long: "(Ed) is a person."
+  short: "person"
+pra:
+  family: "R"
+  long: "(Ed) loves [Ad]."
+  short: "loves"
+  tags: [emotion]
+vier:
+  family: "R"
+  long: "(Ed) visits [Ad]."
+  short: "visits"
+ten:
+  family: "R"
+  long: "(Ec) is a small (subjective) amount of things satisfying [A1]."
+  short: "small amount of"
+  tags: [group]
+tan:
+  family: "R"
+  long: "(Ec) is a medium (subjective) amount of things satisfying [A1]."
+  short: "medium amount of "
+  tags: [group]
+ton:
+  family: "R"
+  long: "(Ec) is a large (subjective) amount of things satisfying [A1]."
+  short: "large amount of"
+  tags: [group]
+tun:
+  family: "R"
+  long: "(Ec) are everything/the only things that satisfies [A1] among (Oc) (default: everything)."
+  short: "every"
+  tags: [group]
+tir:
+  family: "R"
+  long: "(En) is a negligible number times [An] (default: 1)."
+  short: "negligible"
+  tags: [number]
+ter:
+  family: "R"
+  long: "(En) is a small number (subjective/contextual) times [An] (default: 1)."
+  short: "small"
+  tags: [number]
+tar:
+  family: "R"
+  long: "(En) is a medium number (subjective/contextual) times [An] (default: 1)."
+  short: "medium"
+  tags: [number]
+tor:
+  family: "R"
+  long: "(En) is a large number (subjective/contextual) times [An] (default: 1)."
+  short: "large"
+  tags: [number]
+tur:
+  family: "R"
+  long: "(En) is an infinite number times [An] (default: 1)."
+  short: "infinite"
+  tags: [number]
+peol:
+  family: "R"
+  long: "(Ed) is a town/city."
+  short: "city"
+zdir:
+  family: "R"
+  long: "(Ed) is amusing/entertaining to (Ad) (default: speaker) in property (O1)."
+  short: "amusing"
+more:
+  family: "R"
+  long: "(Ed) is simple in property (A1)."
+  short: "simple"
+tore:
+  family: "R"
+  long: "(Ed) is complex/complicated in property (A1)."
+  short: "complicated"
+zane:
+  family: "R"
+  long: "(Ed) is a system with components [Ad] forming structure (Od)."
+  short: "system"
+dan:
+  family: "R"
+  long: "(Ed) is among [Ac]."
+  short: "among"
+dar:
+  family: "R"
+  long: |
+    Everything among (Ed) also satisfies [A1].
+    For each x among (Ed), [A1](x) is true.
+  short: "for each"
+speu:
+  family: "R"
+  long: "(Es_) is ordered following ordering rule [A2]."
+  short: "ordering rule"
+fir:
+  family: "R"
+  long: "(Ed) is a color of [Ad]."
+  short: "color"
+  tags: [color]
+cion:
+  family: "R"
+  long: |
+    (Ed) is [An] HSV-colored.
+
+    [An] is a 3-vector with these components :
+    
+    {tehe} : Hue of the color between 0 and 1.
+             0 is red primary.
+             1/3 is green primary.
+             2/3 is blue primary.
+             Default: 0
+    
+    {teha} : Color saturation between 0 and 1.
+             0 saturation is a shade of gray.
+             Default: 1
+    
+    {teho} : Color value between 0 and 1.
+             0 value is black.
+             Default: 1
+  short: "HSV-color"
+  tags: [color]
+zen:
+  family: "R"
+  long: "(Ed) is white/light [color adjective]."
+  short: "white"
+  tags: [color]
+gon:
+  family: "R"
+  long: "(Ed) is black/dark [color adjective]."
+  short: "black"
+  tags: [color]
+bor:
+  family: "R"
+  long: "(Ed) is red [color adjective]."
+  short: "red"
+  tags: [color]
+der:
+  family: "R"
+  long: "(Ed) is green [color adjective]."
+  short: "green"
+  tags: [color]
+mir:
+  family: "R"
+  long: "(Ed) is blue [color adjective]."
+  short: "blue"
+  tags: [color]
+zne:
+  family: "R"
+  long: "(Ed) is cyan [color adjective]."
+  short: "cyan"
+  tags: [color]
+dzu:
+  family: "R"
+  long: "(Ed) is magenta [color adjective]."
+  short: "magenta"
+  tags: [color]
+jgu:
+  family: "R"
+  long: "(Ed) is yellow [color adjective]."
+  short: "yellow"
+  tags: [color]
+sare:
+  family: "R"
+  long: "(Ec) is a group where every pair of members mutualy satisfy relation [A2]."
+  short: "mutual"
+gli:
+  family: "R"
+  long: "(Ed) is happy about [A0] being true."
+  short: "happy"
+siro:
+  family: "R"
+  long: "(Ed) (source) has translation [Ad] (result)."
+  short: "translation"
+cuina:
+  family: "R"
+  long: "(dA) is a tree."
+  short: "tree"
+jnaor:
+  family: "R"
+  long: "(Ed) is wild/untamed."
+  short: "wild"
+djin:
+  family: "R"
+  long: "(Ed) desires/wants/wishes [A0]."
+  short: "want"
+fuere:
+  family: "R"
+  long: "(Ed) flies [in air/space]."
+  short: "fly"
+foina:
+  family: "R"
+  long: "(Ed) is an airplane."
+  short: "airplane"
+jle:
+  family: "R"
+  long: "(Ed) is motivated to make [A0] true by (Od)."
+  short: "motivated"
+zuan:
+  family: "R"
+  long: "(Ed) walks."
+  short: "walks"
+vune:
+  family: "R"
+  long: "(Ed) is enjoyable/great/nice for [Ad]."
+  short: "nice"
+jvin:
+  family: "R"
+  long: "(Ed) dances."
+  short: "dances"
+blan:
+  family: "R"
+  long: "(Ed) is beautiful."
+  short: "beautiful"
+kca:
+  family: "R"
+  long: "(E0) is possible/can be true."
+  short: "possible"
+pien:
+  family: "R"
+  long: "(Ed) is bread."
+  short: "bread"
+cnue:
+  family: "R"
+  long: "(Ed) is a piece/portion/part of [Ac]."
+  short: "portion"
+ban:
+  family: "R"
+  long: "(Ed) is expressed in language [Ad]."
+  short: "language"
+vin:
+  family: "R"
+  long: "(Ed) is written/inscribed on display/storage medium [Ad]."
+  short: "written"
+soane:
+  family: "R"
+  long: |
+    (Ed) is stolen from [Ad].
+
+    Use with {gza} to express who/what steals (Ed).
+  short: "stolen"
+sfi:
+  family: "R"
+  long: "(Ed) is the abstract concept of [A0]."
+  short: "concept"
+sfe:
+  family: "R"
+  long: |
+    (Ed) [time interval] is an occurrence of [A0] being true.
+    [A0] is true at each instant of (Ed), and was not true immediately before and after this interval.
+  short: "occurence"
+sfa:
+  family: "R"
+  long: "(Ed) is the property [A1]."
+  short: "property"
+sfo:
+  family: "R"
+  long: "(Ed) is the relation [A2]."
+  short: "relation"
+sfu:
+  family: "R"
+  long: "(Ed) is the fact that [A0] is true."
+  short: "fact"
+tri:
+  family: "R"
+  long: 
+    (Ed) tries/attemps to do/bring about [A0].
+    Success is neither implied or disimplied.
+  short: "attemps"
+tcu:
+  family: "R"
+  long: "(Ed) requires/needs [A0] to being true. [A0] is a necessity for (Ed)."
+  short: "needs"
+minu:
+  family: "R"
+  long: "(Ed) sleeps."
+  short: "sleeps"
+jun:
+  family: "R"
+  long: "(Ed) is good."
+  short: "good"
+gur:
+  family: "R"
+  long: "(Ed) is bad."
+  short: "bad"
+kin:
+  family: "R"
+  long: "(Ed) is a kind of [Ad]."
+  short: "kind"
+kunu:
+  family: "R"
+  long: "(Ed) feels sentiment/emotion/sensation [Ad]."
+  short: "feels"
+viru:
+  family: "R"
+  long: "(Ed) sees [Ad]."
+  short: "sees"
+pure:
+  family: "R"
+  long: "(Ed) hears/listen to [Ad]."
+  short: "hears"
+cen:
+  family: "R"
+  long: "(Ed) is a word."
+  short: "word"
+vina:
+  family: "R"
+  long: "(Ed) is alive."
+  short: "alive"
+mori:
+  family: "R"
+  long: "(Ed) is dead."
+  short: "dead"
+suer:
+  family: "R"
+  long: "(Ed) is similar to/like [Ad]."
+  short: "similar"
+paor:
+  family: "R"
+  long: "(Ed) is the truth."
+  short: "truth"
+cfeo:
+  family: "R"
+  long: "(Ed) is a solid [state of matter]."
+  short: "solid"
+  tags: [matter]
+zrao:
+  family: "R"
+  long: "(Ed) is a liquid [state of matter]."
+  short: "liquid"
+  tags: [matter]
+djio:
+  family: "R"
+  long: "(Ed) is a gaz [state of matter]."
+  short: "gaz"
+  tags: [matter]
+jeno:
+  family: "R"
+  long: "(Ed) is water."
+  short: "water"
+  tags: [matter]
+gouru:
+  family: "R"
+  long: "(Ed) is a dog."
+  short: "dog"
+  tags: [animal]
+kanae:
+  family: "R"
+  long: "(Ed) is a wolf."
+  short: "wolf"
+  tags: [animal]
+kroan:
+  family: "R"
+  long: "(Ed) is a frog."
+  short: "frog"
+  tags: [animal]
+tori:
+  family: "R"
+  long: "(Ed) is a bird."
+  short: "bird"
+  tags: [animal]
+cein:
+  family: "R"
+  long: "(Ed) is a room."
+  short: "room"
+caun:
+  family: "R"
+  long: "(Ed) is an animal."
+  short: "animal"
+  tags: [animal]
+flur:
+  family: "R"
+  long: "(Ed) is a plant."
+  short: "plant"
+jveno:
+  family: "R"
+  long: "(Ed) is kind/behaves friendly towards [Ad]."
+  short: "kind"
+slari:
+  family: "R"
+  long: "(Ed) is a rule/law prescribing/mandating/requiring [A0]."
+  short: "rule"
+zire:
+  family: "R"
+  long: "(Ed) respects [Ad]."
+  short: "respects"
+zvoe:
+  family: "R"
+  long: "(Ed) is a content, something that is to be expressed though medium (Ad)."
+  short: "content"
+zbui:
+  family: "R"
+  long: "(Ed) have sex/sexual intercourse/copulates/mates with [Ad]."
+  short: "sex"
+jiro:
+  family: "R"
+  long: "(Ed) shares [Ad] with (Od)."
+  short: "shares"
+mare:
+  family: "R"
+  long: "(Ed) is legal, allowed by authority (Ad)."
+  short: "allowed"
+sier:
+  family: "R"
+  long: "(Ed) is the Internet."
+  short: "internet"
+stini:
+  family: "R"
+  long: "(Ed) is rigid/not bandable."
+  short: "rigid"
+merue:
+  family: "R"
+  long: "(Ed) is an organism / form of life."
+  short: "organism"
+slaen:
+  family: "R"
+  long: "(Ed) is tied/pinned to [Ad]."
+  short: "tied"
+gan:
+  family: "R"
+  long: "(Ed) is something that contains this word."
+  short: "this"
+skien:
+  family: "R"
+  long: "(Ed) is a computer program."
+  short: "program"
+sen:
+  family: "R"
+  long: "If (E0) is true then [A0] is true, otherwise (O0) is true."
+  short: "if then"
+zari:
+  family: "R"
+  long: "(Ed) is a recipe, algorithm, procedure to achieve result [Ad]."
+  short: "recipe"
+zein:
+  family: "R"
+  long: |
+    (Ed) [supply/commodity] is provided to [Ad].
+
+    Use with {gza} to express who/what provides (Ed).
+  short: "provided"
+curo:
+  family: "R"
+  long: "(Ed) is the grammar of [Ad]."
+  short: "grammar"
+cpena:
+  family: "R"
+  long: "(Ed) is a document with content [Ad]."
+  short: "document"
+tsir:
+  family: "R"
+  long: "(Ed) finds/discovers [Ad]."
+  short: "finds"
+tcon:
+  family: "R"
+  long: "(Ed) is related to/associated wit/akin to [Ad] by relationship (O2)."
+  short: "related"
+bun:
+  family: "R"
+  long: "(Ed) is a version of [Ad]."
+  short: "version"
+bju:
+  family: "R"
+  long: "(Ed) is a text."
+  short: "text"
+bion:
+  family: "R"
+  long: "(Ed) is ill/sick from disease [Ad]."
+  short: "sick"
+saul:
+  family: "R"
+  long: "(Ed) is light [energy]."
+  short: "light"
+cmir:
+  family: "R"
+  long: "(Ed) emits/produce [Ad]."
+  short: "emits"
+smai:
+  family: "R"
+  long: "(Ed) receives/absorbs [Ad]."
+  short: "receives"
+flua:
+  family: "R"
+  long: "(Ed) is a sound."
+  short: "sound"
+fana:
+  family: "R"
+  long: "(Ed) is a parent of [Ad]."
+  short: "parent"
+  tags: [kinship, family]
+kana:
+  family: "R"
+  long: "(Ed) is a sibling/brother/sister of [Ad]."
+  short: "sibling"
+  tags: [kinship, family]
+mana:
+  family: "R"
+  long: |
+    (Ed) is a mother of [Ad].
+    Equivalent to {zve fana}.
+  short: "mother"
+  tags: [kinship, family]
+pana:
+  family: "R"
+  long: |
+    (Ed) is a father of [Ad].
+    Equivalent to {kla fana}.
+  short: "father"
+  tags: [kinship, family]
+dzana:
+  family: "R"
+  long: "(Ed) is married to [Ad]."
+  short: "married"
+  tags: [kinship, family]
+kineo:
+  family: "R"
+  long: (Ed) touches [Ad].
+  short: "touches"
+vario:
+  family: "R"
+  long: (Ed) is strange/weird.
+  short: "strange"
+zvao:
+  family: "R"
+  long: (E0) is an accident/unintentional.
+  short: "accident"
+tera:
+  family: "R"
+  long: "(Ed) is a planet."
+  short: "planet"
+sora:
+  family: "R"
+  long: (Ed) is a star.
+  short: "star"
+zila:
+  family: "R"
+  long: "(Ed) is a major natural satellite/moon."
+  short: "moon"
+zoni:
+  family: "R"
+  long: (Ed) pertains to [Ad].
+  short: "pertains"
+kari:
+  family: "R"
+  long: |
+    (Ed) has axiomatic belief that [A0] is true.
+    [A0] is an axiom, is presupposed to be true and it's truth value is never
+    put into doupt.
+  short: "axiom"
+menoe:
+  family: "R"
+  long: "(Ed) is an apple."
+  short: "apple"
+kcaro:
+  family: "R"
+  long: "(Ed) is an table."
+  short: "table"
+guro:
+  family: "R"
+  long: "(Ed) is a country/territory."
+  short: "country"
+drai:
+  family: "R"
+  long: "(Ed) is a god."
+  short: "god"
+mene:
+  family: "R"
+  long: "(Ec) comes (On) (default: 1) places after [Ac] in sequence (Us)."
+  short: "comes after"
+dara:
+  family: "R"
+  long: "(Ec) comes (On) (default: 1) places before [Ac] in sequence (Us)"
+  short: "comes before"
+marne:
+  family: "R"
+  long: "(Ec) can be metaphorically compared to [Ac]."
+  short: "metaphor"
+kroni:
+  family: "R"
+  long: "(Ed) is a leg."
+  short: "leg"
+kani:
+  family: "R"
+  long: "(Ed) infers from their current sensorial experience that [A0] is the case."
+  short: "infers from senses"
+mara:
+  family: "R"
+  long: "(Ed) remembers the past experience of perceiving that [A0] was the case."
+  short: "remembers"
+zule:
+  family: "R"
+  long: "(Ed) has got second-hand information or hearsay according to which [A0] is the case."
+  short: "hearsay"
+muni:
+  family: "R"
+  long: "(Ed) intuits that [A0] is the case."
+  short: "intuits"
+sana:
+  family: "R"
+  long: "(Ed) has cultural knowledge, collective wisdom according to which [A0] is the case."
+  short: "cultural knowledge"
+valo:
+  family: "R"
+  long: "(Ed) infers (from several sources of information) that [A0] is the case."
+  short: "infers from multiple sources"
+bael:
+  family: "R"
+  long: "(Ed) is standing."
+  short: "standing"
+ctua:
+  family: "R"
+  long: "(Ed) is sitting on [Ad]."
+  short: "sit"
+pron:
+  family: "R"
+  long: "(Ed) is lying down on [Ad]."
+  short: "lying down"
+gavgi:
+  family: "R"
+  long: " (Ed) is a crystal/gem/mineral with orderly atomic structure (Ad)."
+  short: "crystal"
+jala:
+  family: "R"
+  long: " (Ed) is awake."
+  short: "awake"
+celia:
+  family: "R"
+  long: " (Ed) is the science/study/body of knowledge about topic [Ad]."
+  short: "science"
+filu:
+  family: "R"
+  long: " (Ed) gives birth to/begets [Ad]."
+  short: "gives birth"
+del:
+  family: "R"
+  long: " (Ed) is a typical/average representative of something that satisfies [A1]."
+  short: "typical"
+zmi:
+  family: "R"
+  long: |
+    (Ed) is the least in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Least" means being the lowest in the population.
+    The property must have a clear ordering strategy.
+  short: "least"
+  tags: [intensity]
+zma:
+  family: "R"
+  long: |
+    (Ed) is moderate in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Moderate" means being close to the median in the population.
+    The property must have a clear ordering strategy.
+  short: "moderate"
+  tags: [intensity]
+zmu:
+  family: "R"
+  long: |
+    (Ed) is the most in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Most" means being the highest in the population.
+    The property must have a clear ordering strategy.
+  short: "most"
+  tags: [intensity]
+zmie:
+  family: "R"
+  long: |
+    (Ed) is very little in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Very little" means being below the first quartile in the population.
+    The property must have a clear ordering strategy.
+  short: "very little"
+  tags: [intensity]
+zmea:
+  family: "R"
+  long: |
+    (Ed) is little in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Little" means being between the first quartile and the median in the population.
+    The property must have a clear ordering strategy.
+  short: "little"
+  tags: [intensity]
+zmao:
+  family: "R"
+  long: |
+    (Ed) is much in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Much" means being between the median and the third quartile in the population.
+    The property must have a clear ordering strategy.
+  short: "much"
+  tags: [intensity]
+zmou:
+  family: "R"
+  long: |
+    (Ed) is very much in property [A1] in population/sample (Oc) (default: contextual).
+
+    "Very much" means being between above the third quartile in the population.
+    The property must have a clear ordering strategy.
+  short: "much"
+  tags: [intensity]
+sahar:
+  family: "R"
+  long: " (Ed) is a flower."
+  short: "flower"
+kena:
+  family: "R"
+  long: " (Ed) holds/grasps [Ad]."
+  short: "holds"
+clo:
+  family: "R"
+  long: " (Ed) have purpose to satisfy property [A1]."
+  short: "purpose"
+jara:
+  family: "R"
+  long: " (Ed) has satisfying property [A1] as one of their jobs/occupations (paid work)."
+  short: "paid work"
+zera:
+  family: "R"
+  long: " (Ed) has satisfying property [A1] as a personality trait."
+  short: "personality trait"
+bzen:
+  family: "R"
+  long: " (E0) is the case for reason (A0)."
+  short: "reason"
+blae:
+  family: "R"
+  long: " (Ed) is owned by [Ac]."
+  short: "owned"
+tse:
+  family: "R"
+  long: " (En) is the amount of individual things in [Ac]."
+  short: "amount"
+zgi:
+  family: "R"
+  long: |
+    (En) is the duration expressed by number [An].
+
+    [An] uses number vector notation to quickly express durations or dates.  
+    - {tehe} : seconds ({vola})  
+    - {teha} : minutes ({jero})  
+    - {teho} : hours ({sura})  
+    - {tehu} : days ({dena})  
+    - {tehei} : weeks ({kora})  
+    - {tehai} : months ({gare})  
+    - {tehoi} : years ({bire})  
+  short: "duration (vec)"
+  tags: [time, vector]
+dzui:
+  family: "R"
+  long: " (Ec) is able to satisfy property [A1]."
+  short: "able"
+dukma:
+  family: "R"
+  long: " (Ed) is magic/sorcery/witchcraft."
+  short: "magic"
+bena:
+  family: "R"
+  long: " (Ed) is healthy/fit/well/in good health."
+  short: "healthy"
+jogma:
+  family: "R"
+  long: "(Ed) is a wound."
+  short: "wound"
+melu:
+  family: "R"
+  long: "(Ed) (default: water) is raining."
+  short: "rain"
+bein:
+  family: "R"
+  long: "(Ec) is the last member of sequence [As]."
+  short: "last"
+  tags: [number, list]
+seni:
+  family: "R"
+  long: |
+    (E0) is obligated to be performed under authority (Ac). (E0) is a duty.
+    
+    Examples: praying (in some religions), voting (in some countries), parents
+    taking care of their children is societally obligated
+  short: "obligated"
+sene:
+  family: "R"
+  long: |
+    (E0) is encouraged to be performed under authority (Ac). 
+    (Ed) is a virtuous/upstanding behavior.
+    
+    Examples: charity, volunteer work, being polite
+  short: "encouraged"
+sena:
+  family: "R"
+  long: |
+    (E0) is neither encouraged nor discouraged (i.e. permitted) by authority (Ac).
+    (E0) is tolerated.  
+    
+    Examples: basically most actions are {sena}, there are so many examples
+    -- the act of breathing is sena
+  short: "tolerated"
+seno:
+  family: "R"
+  long: |
+    (E0) is discouraged to be performed under authority (Ac); (Ed) is reprehensible.
+    
+    Examples: lying (not under oath), crimes with are technically illegal but
+    not prosecuted, laughing at a funeral, breaking certain religious laws
+  short: "discouraged"
+senu:
+  family: "R"
+  long: |
+    (E0) is forbidden to be done by authority (Ac).
+    
+    Examples: for many religions speaking badly of their deity is forbidden,
+    crimes which are prosecuted, cheating on your partner in a monogamous relationship
+  short: "forbidden"
+molai:
+  family: "R"
+  long: |
+    (Ec) is made to satisfy [A1] as a reward/punishment.  
+    (Ec) is awarded/punished, with result that they satisfy [A1].
+  short: "reward/punishment"
+buiur:
+  family: "R"
+  long: "(Ed) is meat from animal/source [Ad]."
+  short: "meat"
+
+# Compounds (2):
+e tsen ban:
+  family: "C2"
+  long: "(Ed) is a constructed language/conlang."
+  short: "conlang"
+e ber ban:
+  family: "C2"
+  long: "(Ed) is the eberban language."
+  short: "eberban"
+  tags: [cultural]
+e ujbo ban:
+  family: "C2"
+  long: "(Ed) is the lojban language."
+  short: "lojban"
+  tags: [cultural]
+e ufranse ban:
+  family: "C2"
+  long: "(Ed) is the french language."
+  short: "french language"
+  tags: [cultural]
+e ufranse guro:
+  family: "C2"
+  long: "(Ed) is France."
+  short: "France"
+  tags: [cultural]
+e uinglici ban:
+  family: "C2"
+  long: "(Ed) is the english language."
+  short: "english language"
+  tags: [cultural]
+e unihon ban:
+  family: "C2"
+  long: "(Ed) is the japanese language."
+  short: "japanese language"
+  tags: [cultural]
+e unihon guro:
+  family: "C2"
+  long: "(Ed) is Japan."
+  short: "Japan"
+  tags: [cultural]
+e udjonguo ban:
+  family: "C2"
+  long: "(Ed) is chinese language."
+  short: "chinese language"
+  tags: [cultural]
+e udjonguo guro:
+  family: "C2"
+  long: "(Ed) is China."
+  short: "China"
+  tags: [cultural]
+e udoitce ban:
+  family: "C2"
+  long: "(Ed) is german language."
+  short: "german language"
+  tags: [cultural]
+e udoitce guro:
+  family: "C2"
+  long: "(Ed) is Germany."
+  short: "Germany"
+  tags: [cultural]
+e umiser guro:
+  family: "C2"
+  long: "(Ed) is Egypt."
+  short: "Egypt"
+  tags: [cultural]
+e uhangu ban:
+  family: "C2"
+  long: "(Ed) is korean language."
+  short: "korean language"
+  tags: [cultural]
+e uhangu guro:
+  family: "C2"
+  long: "(Ed) is South Korea."
+  short: "South Korea"
+  tags: [cultural]
+e utcoson ban:
+  family: "C2"
+  long: "(Ed) is korean language."
+  short: "korean language"
+  tags: [cultural]
+e utcoson guro:
+  family: "C2"
+  long: "(Ed) is North Korea."
+  short: "North Korea"
+  tags: [cultural]
+
+e te dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Sunday."
+  short: "Sunday"
+  tags: [time, day]
+e ta dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Monday."
+  short: "Monday"
+  tags: [time, day]
+e to dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Thusday."
+  short: "Thusday"
+  tags: [time, day]
+e tu dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Wednesday."
+  short: "Wednesday"
+  tags: [time, day]
+e tei dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Thursday."
+  short: "Thursday"
+  tags: [time, day]
+e tai dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Friday."
+  short: "Friday"
+  tags: [time, day]
+e toi dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Saturday."
+  short: "Saturday"
+  tags: [time, day]
+e tui dena:
+  family: "C2"
+  long: "(Ed) [time interval] is a Sunday."
+  short: "Sunday"
+  tags: [time, day]
+e te gare:
+  family: "C2"
+  long: "(Ed) [time interval] is January."
+  short: "January"
+  tags: [time, month]
+e ta gare:
+  family: "C2"
+  long: "(Ed) [time interval] is February."
+  short: "February"
+  tags: [time, month]
+e to gare:
+  family: "C2"
+  long: "(Ed) [time interval] is March."
+  short: "March"
+  tags: [time, month]
+e tu gare:
+  family: "C2"
+  long: "(Ed) [time interval] is April."
+  short: "April"
+  tags: [time, month]
+e tai gare:
+  family: "C2"
+  long: "(Ed) [time interval] is May."
+  short: "May"
+  tags: [time, month]
+e tei gare:
+  family: "C2"
+  long: "(Ed) [time interval] is June."
+  short: "June"
+  tags: [time, month]
+e toi gare:
+  family: "C2"
+  long: "(Ed) [time interval] is July."
+  short: "July"
+  tags: [time, month]
+e tui gare:
+  family: "C2"
+  long: "(Ed) [time interval] is August."
+  short: "August"
+  tags: [time, month]
+e tie gare:
+  family: "C2"
+  long: "(Ed) [time interval] is September."
+  short: "September"
+  tags: [time, month]
+e tia gare:
+  family: "C2"
+  long: "(Ed) [time interval] is October."
+  short: "October"
+  tags: [time, month]
+e tio gare:
+  family: "C2"
+  long: "(Ed) [time interval] is November."
+  short: "October"
+  tags: [time, month]
+e tiu gare:
+  family: "C2"
+  long: "(Ed) [time interval] is December."
+  short: "December"
+  tags: [time, month]
+e kre vier:
+  family: "C2"
+  long: "(Ed) visits [Ad] with guide (Od)."
+  short: "guided visit"
+e vin zane:
+  family: "C2"
+  long: "(Ed) is a writing system with symbols (Ad) and set of rules (Os0)."
+  short: "writing system"
+e spi tori:
+  family: "C2"
+  long: "(Ed) is a parrot."
+  short: "parrot"
+  tags: [animal]
+e sier vanu:
+  family: "C2"
+  long: "(Ed) is an hyperlink to/URL of resource [Ad]."
+  short: "hyperlink"
+e merue zane:
+  family: "C2"
+  long: "(Ec) is an organism with body parts [Ac] forming body (Oc)."
+  short: "body"
+e gze slaen:
+  family: "C2"
+  long: "(Ed) hangs from [Ad]."
+  short: "hang"
+e skao zari:
+  family: "C2"
+  long: "(Ed) is a source code of [Ad]."
+  short: "source code"
+e curo skien:
+  family: "C2"
+  long: "(Ed) is a parser from grammar [Ad]."
+  short: "parser"
+e pu zoi:
+  family: "C2"
+  long: "(Ed) is a paragraph."
+  short: "paragraph"
+e bion cnue:
+  family: "C2"
+  long: "(Ed) [ill/sickness] is characterized by symptom [A1]."
+  short: "symptom"
+e tor vuno:
+  family: "C2"
+  long: "(Ed) is far (large distance) from [Ad]."
+  short: "far"
+e ter vuno:
+  family: "C2"
+  long: "(Ed) is close (short distance) to [Ad]."
+  short: "close"
+e za zoi:
+  family: "C2"
+  long: "(Ed) is a name of [Ac]."
+  short: "name"
+e spur tera:
+  family: "C2"
+  long: "(Ed) is the home planet of species (Ad) (default: humans)."
+  short: "home planet"
+e spur sora:
+  family: "C2"
+  long: "(Ed) is the home star of species (Ad) (default: humans)."
+  short: "home star"
+e dena zdo:
+  family: "C2"
+  long: |
+    (E0) occurs one day after (A0) (default: today).
+    Using only the E place thus defaults to "tomorrow".
+  short: "next day"
+  tags: [time, measument, ordering]
+e dena zde:
+  family: "C2"
+  long: |
+    (E0) occurs one day before (A0) (default: today).
+    Using only the E place thus defaults to "yesterday".
+  short: "previous day"
+  tags: [time, measument, ordering]
+e dena zda:
+  family: "C2"
+  long: (E0) occurs today.
+  short: "today"
+  tags: [time]
+e cpu cir:
+  family: "C2"
+  long: "(En) is greater than or equal to [An]."
+  short: "≥"
+  tags: [maths, ordering]
+e cpu cal:
+  family: "C2"
+  long: "(En) is less than or equal to [An]."
+  short: "≤"
+  tags: [maths, ordering]
+e fniu cal:
+  family: "C2"
+  long: (Ed) is less tall than [Ad].
+  short: "less tall"
+  tags: [space, measument, ordering]
+e fniu cir:
+  family: "C2"
+  long: (Ed) is taller than [Ad].
+  short: "taller"
+  tags: [space, measument, ordering]
+e jvao cal:
+  family: "C2"
+  long: (Ed) is smaller/has less volume tall than [Ad].
+  short: "smaller"
+  tags: [space, measument, ordering]
+e jvao cir:
+  family: "C2"
+  long: (Ed) is bigger/has more volume than [Ad].
+  short: "bigger "
+  tags: [space, measument, ordering]
+e zulu cal:
+  family: "C2"
+  long: (Ed) is younger than [Ad].
+  short: "younger"
+  tags: [time, measument, ordering]
+e zulu cir:
+  family: "C2"
+  long: (Ed) is older than [Ad].
+  short: "older"
+  tags: [time, measument, ordering]
+e jven kena:
+  family: "C2"
+  long: (Ed) hugs [Ad].
+  short: "hugs"
+e ter zde:
+  family: "C2"
+  long: "(Ed) (default: now) [time interval] occurs a short time before/in the past of [Ad] (default: now) [time interval]."
+  short: "short time before"
+  tags: [time, measument, ordering]
+e tar zde:
+  family: "C2"
+  long: "(Ed) (default: now) [time interval] occurs a medium time before/in the past of [Ad] (default: now) [time interval]."
+  short: "medium time before"
+  tags: [time, measument, ordering]
+e tor zde:
+  family: "C2"
+  long: "(Ed) (default: now) [time interval] occurs a long time before/in the past of [Ad] (default: now) [time interval]."
+  short: "long time before"
+  tags: [time, measument, ordering]
+e ter zdo:
+  family: "C2"
+  long: "(Ed) (default: now) [time interval] occurs a short time after/in the future of [Ad] (default: now) [time interval]."
+  short: "short time after"
+  tags: [time, measument, ordering]
+e tar zdo:
+  family: "C2"
+  long: "(Ed) (default: now) [time interval] occurs a medium time after/in the future of [Ad] (default: now) [time interval]."
+  short: "medium time after"
+  tags: [time, measument, ordering]
+e tor zdo:
+  family: "C2"
+  long: "(Ed) (default: now) [time interval] occurs a long time after/in the future of [Ad] (default: now) [time interval]."
+  short: "long time after"
+  tags: [time, measument, ordering]
+e cmo bena:
+  family: "C2"
+  long: (Ed) heals/recovers/returns to health.
+  short: "heals"
+
+a cen po bu:
+  family: "C3"
+  long: "(Ed) is a dictionary."
+  short: "dictionary"

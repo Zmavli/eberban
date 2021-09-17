@@ -1,0 +1,228 @@
+body,
+textarea {
+	font-family: sans-serif !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.translation {
+	color: #aaaaaa;
+	font-style: italic;
+	font-weight: normal;
+}
+
+li.implicit {
+	color: #aaaaaa;
+	/* display: none; */
+}
+
+.error-marker {
+	position: relative;
+	top: 6pt;
+	margin-right: -6px;
+}
+
+.error-sentence {
+	text-align: center;
+	font-style: italic;
+}
+
+#parse-result-boxes {
+	padding-bottom: 200px;
+}
+
+/* Translations */
+.alternative {
+	color: #6699cc;
+	display: none;
+}
+
+.box {
+	width: max-content;
+	text-align: center;
+	display: inline-block;
+	vertical-align: top;
+	white-space: nowrap;
+
+	margin: 3px;
+	padding: 3px;
+	/* border: 1px black solid; */
+
+	margin-top: 0px;
+	padding-top: 0px;
+	border-top: 0px;
+
+	--color-pink: #fc9bcb;
+	--color-purple: #c895fc;
+	--color-blue: #95caff;
+}
+
+.box.box-paragraph-unit {
+	display: block;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	/* background: #ffffff;
+	margin: 2px; */
+}
+
+.erased {
+	opacity: 0.3;
+}
+
+.box.box-sentence {
+	/* display: block;
+	text-align: left; */
+	background: #ffffff;
+	border: 1px black solid;
+	margin: 2px;
+}
+
+.box.box-paragraph {
+	display: block;
+	text-align: left;
+	background: #ffffff;
+	margin: 2px;
+}
+
+.box.box-arguments {
+	background: var(--color-pink);
+	border: 1px black solid;
+	border-top: 0px;
+}
+
+.box.box-note {
+	background: #eeeeee;
+}
+
+.box.box-sequential {
+	background: white;
+}
+
+.box.box-chaining-unit {
+	background: var(--color-purple);
+}
+
+.box.box-chaining-neg {
+	border: 1px red dashed;
+	border-top: 0px;
+}
+
+.box.box-va-scope {
+	background: var(--color-pink);
+}
+
+.box.box-predicate {
+	background: var(--color-blue);
+}
+
+.box.box-set {
+	background: var(--color-purple);
+}
+
+.box.box-compound {
+	background: var(--color-purple);
+}
+
+.box.box-borrowing-unit {
+	background: var(--color-purple);
+}
+
+.box.box-borrowing {
+	background: var(--color-purple);
+}
+
+.box.box-number {
+	background: var(--color-purple);
+}
+
+.box.box-scope {
+	background: #ffffff;
+	border-top: 0px;
+}
+
+.box.box-scope-highlight {
+	border: 1px black dashed;
+	border-top: 0px;
+}
+
+.box.box-terminal {
+	margin: 0px;
+	padding: 2px;
+	border: 0px;
+}
+
+.box.box-not-shown {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.box .translation {
+	color: black;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.gloss-family {
+	display: inline-block;
+	font-weight: normal;
+	color: #888888;
+	width: 50px;
+}
+
+.tip {
+	position: relative;
+	display: inline;
+	font-weight: bold;
+}
+
+.tip .tiptext {
+	display: block;
+	visibility: hidden;
+	width: 300px;
+	background-color: white;
+	text-align: left;
+	border-radius: 3px;
+	padding: 5px;
+	position: absolute;
+	top: 100%;
+	margin-left: 0px;
+	opacity: 0;
+	transition: opacity 0.1s;
+	white-space: normal;
+	font-weight: normal;
+	border: 1px solid black;
+	box-shadow: 0px 0px 2px black;
+	font-family: "Courier New", Courier, monospace;
+	z-index: 100;
+	font-style: normal;
+}
+
+.tip:hover .tiptext {
+	visibility: visible;
+	opacity: 1;
+}
+
+.glosser-definition {
+	font-family: "Courier New", Courier, monospace;
+}
+
+.dictionary-entry {
+	padding-top: 0px;
+	padding-bottom: 2px;
+}
+
+.foreign-quote-content {
+	white-space: pre-wrap;
+	font-family: "Courier New", Courier, monospace;
+}
+
+.foreign-quote-content .tip {
+/* .foreign-quote div:nth-last-of-type(2) .tip { */
+	white-space: pre-wrap;
+	font-family: "Courier New", Courier, monospace;
+	border: 1px solid black;
+}
